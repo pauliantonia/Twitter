@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../../assets/img/arboles.jpg);
+}
+
+h1{
+  margin-top: 0;
+  padding: 10px 0;
+}
+header {
+  width: 100%;
+  background-color: #1da1f2;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+
+.profile {
+  margin: 3% 0% 0% 8%;
+  padding: 2%;
+  width: 25%;
+  height: 20%;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  color: #69777f;
+  vertical-align: top;
+}
+
+a{
+  text-decoration: none;
+}
+
+.twittear {
+  margin: 2% 0% 0% 5%;
+  width: 45%;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+
+}
+
+textarea {
+  resize: none;
+  width: 85%;
+  height: 150px;
+  margin: 2.5%;
+  border: none;
+}
+
+hr {
+  width: 90%;
+}
+
+.buttonTwittear {
+  width: 100px;
+  height: 50px;
+  background-color: #1da1f2;
+  border-radius: 6%;
+  margin: 2%;
+  border-radius: 10px;
+  font-size: 130%;
+  color: white;
+}
+
+.comments {
+  width: 80%;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.twit {
+  background-color: white;
+  padding: 5%;
+  border: 10px solid transparent;
+}
