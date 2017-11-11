@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>    
+<html>
     <head>
       <title>Twitter</title>
       <link rel="stylesheet" href="assets/css/main.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
-      <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css">    
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css">
     </head>
     <body>
       <header>
@@ -17,15 +17,16 @@
             <p><a href="https://github.com/pauliantonia">profile</a></p>
           </div>
           <div class="twittear">
-              <textarea class="twit" name="think" placeholder="¿Que estas pensando?..."></textarea> <span id="contador_text">140</span>
+              <textarea class="twit" name="think" id="textArea"  placeholder="¿Que estas pensando?..."></textarea>
+              <span name="contadorTwit" id="contador_twit" >140</span>
               <hr>
-              <button class="buttonTwittear" name="enviar">Tweet</button>
+              <button class="buttonTwittear" name="enviar" id="botonTweet">Tweet</button>
           </div>
       </section>
-      <section>  
-        <div name="comments" class="comments">
+      <section>
+        <div name="contPadre" class="comments" id="contPadre">
         </div>
-      </section>  
-      <script src="assets/js/app.js" type="application/javascript"></script>   
-    </body>    
+      </section>
+      <script src="assets/js/app.js" type="application/javascript"></script>
+    </body>
 </html>

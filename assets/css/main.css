@@ -44,7 +44,7 @@ a{
 
 textarea {
   resize: none;
-  width: 85%;
+  width: 80%;
   height: 150px;
   margin: 2.5%;
   border: none;
@@ -72,8 +72,10 @@ hr {
   border-radius: 10px;
 }
 
-.twit {
+.tweet {
   background-color: white;
-  padding: 5%;
+  padding: 3%;
   border: 10px solid transparent;
+  border-radius: 10px;
+  margin: 1%;
 }
